@@ -1,0 +1,374 @@
+/*Estilos Sección Especiales Carrusel*/
+
+#contendorgral_100deportistas {
+    margin: 0 auto;
+    width: 960px;
+}
+#EC100A_Header100Deportistas {
+    width: 980px;
+}
+#EC100A_Header100Deportistas #encabezado_100deportistas {
+    background: url("header_deportistas.jpg") no-repeat scroll center top transparent;
+    height: 150px;
+    width: 980px;
+}
+#EC100A_Header100Deportistas #contenedor_carrusel_100deportistas {
+    width: 980px;
+	margin: 0 0 0 4px;
+}
+#EC100A_Header100Deportistas #contenedor_carrusel_100deportistas #prev_100deportistas {
+    float: left;
+    margin: 3px 3px 0 -3px;
+	cursor: pointer;
+	position: relative;
+}
+#EC100A_Header100Deportistas #contenedor_carrusel_100deportistas .carrusel_100deportistas {
+    float: left;
+    margin: -13px 0 0 -40px;
+}
+.carrusel_100deportistas ul li {
+    display: inline;
+}
+#EC100A_Header100Deportistas #contenedor_carrusel_100deportistas #next_100deportistas {
+    float: left;
+    margin: 3px 0 0 3px;
+	cursor: pointer;
+}
+#EC100A_descripción_Deportistas {
+    clear: both;
+    float: left;
+    width: 640px;
+	margin: -10px 0 0 0;
+}
+#columna_right {
+    float: left;
+}
+#EC100A_texto_Deportistas {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+#EC100A_texto_Deportistas h1 {
+	color: #666666;
+	}
+#EC100A_texto_Deportistas p {
+	font-size: 13px;
+	}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#carrusel_100deportistas ul li {
+    display: inline;
+	margin: 0 0 0 -1px;
+}
+#carrusel_100deportistas ul {
+	margin: 16px 0 15px 0;
+}
+	}
+#socialmedia_100deportistas {
+	width: 40%;
+	float: right;
+	bottom: -120px;
+	color: #FFF;
+	position: relative;
+	}
+#flechaprev_img_descripciondeportista {
+	position:absolute;
+	left: 160px;
+	width: 40px;
+	height: 70px;
+	margin: 170px 0 0 0;
+	display: inline-block;
+	cursor: pointer;
+	}
+#flechanext_img_descripciondeportista {
+	position:absolute;
+	left: 742px;
+	width: 40px;
+	height: 70px;
+	margin: 170px 0 0 0;
+	display: inline-block;
+	cursor: pointer;
+	}
+#numero_img_descripciondeportista {
+	background: #FFF;
+    display: inline-block;
+    height: 53px;
+    left: 600px;
+    margin: 358px 0 0;
+    position: absolute;
+    width: 182px;
+	opacity: 0.8;
+	}
+#numero_img_descripciondeportista span {
+	color: #B20204;
+	font: 30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: absolute;
+	padding: 7px 30px;
+	}
+#EC100A_imagen_Deportistas {
+	position: relative;
+	}
+.carrusel_100deportistas .n_dep {
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 31px 29px 0 -15px;
+	display: inline;
+	position: absolute;
+	}
+
+/* Estilos Carrosel */
+
+.contenidoCarruselEspeciales {
+	width:980px;
+	height: 50px;
+}
+.contenidoCarruselEspeciales .js .carousel-wrap {
+	width: 883px;
+	float: left;
+	margin: 0 2px;
+}
+.contenidoCarruselEspeciales .js .carousel-wrap ul{
+	height: 45px;
+}
+.contenidoCarruselEspeciales .carouselEspeciales ul {
+	margin:0;
+	padding:0;
+	zoom:1;
+	display:inline-block
+}
+.contenidoCarruselEspeciales .js ul li {
+	overflow:hidden;
+	float:left;
+	width: 55px;
+	height:45px;
+}
+.contenidoCarruselEspeciales .carouselEspeciales .carousel-control {
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	line-height:999px;
+}
+.contenidoCarruselEspeciales .carouselEspeciales .carousel-next {
+	background:url(./img/carrusel-esp-100A-der.jpg) center top no-repeat;
+	cursor: pointer;
+	float: left;
+	width: 45px;
+	height: 45px;
+}
+.contenidoCarruselEspeciales .carouselEspeciales .carousel-previous {
+	background:url(./img/carrusel-esp-100A-izq.jpg) center top no-repeat;
+	cursor:pointer;
+	float: left;
+	width: 45px;
+	height: 45px;
+}
+.contenidoCarruselEspeciales .carouselEspeciales div {
+	margin:0;
+	padding:0;
+	border:0;
+}
+.contenidoCarruselEspeciales .carouselEspeciales ul {
+	padding:0;
+	list-style:none;
+}
+.contenidoCarruselEspeciales .carouselEspeciales ul li {
+	display:inline;
+	margin: 0 1px;
+}
+.contenidoCarruselEspeciales .carouselEspeciales .carousel-pagination a {
+	border:1px solid #c1c1c1;
+	margin:3px;
+	padding:0 2px 0 2px;
+	position:relative;
+	top:17px;
+	left:10px;
+	cursor:pointer;
+}
+.contenidoCarruselEspeciales .carouselEspeciales .carousel-pagination a:hover {
+	background-color: #d9e102;
+	color:#000000;
+	text-decoration: none;
+}
+.contenidoCarruselEspeciales .carouselEspeciales .carousel-pagination a.active {
+	background-color: #d9e102;
+	color:#000000;
+	text-decoration: none;
+}
+.contenidoCarruselEspeciales .verMasTickerEspeciales {
+	float:right;
+	padding-right:10px;
+	padding-top:5px
+}
+.contenidoCarruselEspeciales span .n_dep {
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 31px 29px 0 -15px;
+	display: inline;
+	position: absolute;
+}
+.EC100A_cajanotaEspeciales a img {
+	width:55px;
+	height:45px
+}
+.EC100A_cajaNotaEspeciales h3 a {
+	width:130px;
+	text-align:left;
+	margin:0px 5px 0px 5px;
+	font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.EC100A_cajaNotaEspeciales p {
+	width:136px;
+	height:35px;
+	overflow:hidden;
+	text-align:left;
+	float:left;
+	padding:0px 5px 0px 5px;
+}
+#EC100A_contenidoCarrusel_ControlLoadEspeciales {
+	visibility:hidden;
+	z-index:0;
+	position:relative;
+	margin: 2px 0 0;
+}
+#EC100A_contenidoCarrusel_LoadEspeciales {
+	width: 960px;
+	height:350px;
+	z-index:1;
+	position:absolute;
+	background: url(../images/loading.gif) center no-repeat #FFF;
+}
+#flechaprev_img_descripcion {
+	cursor: pointer;
+    display: inline-block;
+    height: 70px;
+    left: 6px;
+    margin: 170px 0 0;
+    position: absolute;
+    width: 40px;	
+}
+.EC100A_contenido-top100{
+	float: left;
+    margin-right: 10px;
+	width: 640px;
+	height: 410px;
+	padding: 0 0 30px;
+}
+#flechanext_img_descripcion {
+	cursor: pointer;
+    display: inline-block;
+    height: 70px;
+    left: 590px;
+    margin: 170px 0 0;
+    position: absolute;
+    width: 40px;	
+}
+#numero_img_descripcion {
+	margin: 360px 0 0 10px;
+    opacity: 0.8;
+    position: absolute;
+}
+#numero_img_descripcion span {
+	background: none repeat scroll 0 0 #FFFFFF;
+    color: #B20204;
+    font: 30px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    padding: 7px 30px;
+    position: absolute;
+}
+
+.contenidoCarruselEspeciales1 {
+	width:980px;
+	height: 50px;
+}
+.contenidoCarruselEspeciales1 .js .carousel-wrap {
+	width: 883px;
+	float: left;
+	margin: 0 2px;
+}
+.contenidoCarruselEspeciales1 .js .carousel-wrap ul{
+	height: 45px;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 ul {
+	margin:0;
+	padding:0;
+	zoom:1;
+	display:inline-block
+}
+.contenidoCarruselEspeciales1 .js ul li {
+	overflow:hidden;
+	float:left;
+	width: 55px;
+	height:45px;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 .carousel-control {
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	line-height:999px;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 .carousel-next {
+	background:url(./img/carrusel-esp-100A-der.jpg) center top no-repeat;
+	cursor: pointer;
+	float: left;
+	width: 45px;
+	height: 45px;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 .carousel-previous {
+	background:url(./img/carrusel-esp-100A-izq.jpg) center top no-repeat;
+	cursor:pointer;
+	float: left;
+	width: 45px;
+	height: 45px;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 div {
+	margin:0;
+	padding:0;
+	border:0;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 ul {
+	padding:0;
+	list-style:none;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 ul li {
+	display:inline;
+	margin: 0 1px;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 .carousel-pagination a {
+	border:1px solid #c1c1c1;
+	margin:3px;
+	padding:0 2px 0 2px;
+	position:relative;
+	top:17px;
+	left:10px;
+	cursor:pointer;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 .carousel-pagination a:hover {
+	background-color: #d9e102;
+	color:#000000;
+	text-decoration: none;
+}
+.contenidoCarruselEspeciales1 .carouselEspeciales1 .carousel-pagination a.active {
+	background-color: #d9e102;
+	color:#000000;
+	text-decoration: none;
+}
+.contenidoCarruselEspeciales1 .verMasTickerEspeciales {
+	float:right;
+	padding-right:10px;
+	padding-top:5px
+}
+.contenidoCarruselEspeciales1 span .n_dep {
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 31px 29px 0 -15px;
+	display: inline;
+	position: absolute;
+}

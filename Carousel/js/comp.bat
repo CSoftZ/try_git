@@ -1,0 +1,1 @@
+java -jar compiler.jar --charset=ISO-8859-1 --js=jquery.carousel.js --js_output_file=jquery.carousel.min.js
