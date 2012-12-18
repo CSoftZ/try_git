@@ -1,0 +1,178 @@
+body { background: #fff fixed center top no-repeat; color: #000; font: 67% "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.resumen {
+    border-bottom: 1px dotted #CCCCCC;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+}
+.resumen .imgCentrada {
+    display: block;
+    margin: 0 auto;
+}
+.resumen .creditoImagen {
+    color: #7F7F7F;
+    font-size: 1em;
+    margin-bottom: 6px;
+}
+.resumen .categoria {
+    font-size: 1em;
+    font-weight: bold;
+}
+.resumen .categoria span {
+    color: #990000;
+}
+.resumen h2 {
+    font: 2.7em/0.9em "Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin-bottom: 5px;
+}
+.resumen h3 {
+    font: 2.2em/1em "Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin-bottom: 5px;
+}
+.resumen h4 {
+    font: 1.9em/1em "Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin: 3px 0 10px;
+}
+.resumen h5 {
+    font: 1.3em "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+.resumen h6 {
+    color: #7F7F7F;
+    font: bold 1em "Trebuchet MS",Arial,Helvetica,sans-serif;
+    margin-bottom: 10px;
+}
+.resumen p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+.resumen .contenedorNotasRelacionadas {
+    margin: 35px 0 -20px;
+}
+.resumen .contenedorItems {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+}
+.resumen .item {
+    margin-bottom: 5px;
+}
+.resumen .iconoNota {
+    display: inline;
+    float: left;
+    margin-right: 3px;
+}
+.resumen .enlaceNota {
+    display: table;
+    height: 1%;
+}
+
+#zonaPata {
+    margin: 0;
+}
+
+#EC100A_barra_mobile {
+    float:left;
+	margin: 0 2px 0 0;
+}
+
+#EC100A_barra_mobile .Contenedor_barra_mobile {
+    background: -moz-linear-gradient(center top , #6B6B6B, #555555) repeat scroll 0 0 transparent;
+    float: left;
+    height: 23px;
+    padding: 8px 0 5px 95px;
+    width: 550px;
+}
+#EC100A_barra_mobile .aplicativos_moviles {
+    color: #FFFFFF;
+    float: left;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    margin: 0 20px 0 0;
+}
+#EC100A_barra_mobile .iconos_moviles {
+    float: left;
+    width: 375px;
+}
+#EC100A_barra_mobile .iphone {
+    float: left;
+    width: 20%;
+}
+#EC100A_barra_mobile .ipad {
+    float: left;
+    width: 23%;
+}
+#EC100A_barra_mobile .android {
+    float: left;
+    width: 27%;
+}
+#EC100A_barra_mobile .blacberry {
+    float: left;
+    width: 30%;
+}
+#EC100A_barra_mobile .iphone img {
+    margin: -6px 0 0;
+}
+#EC100A_barra_mobile .ipad img {
+    margin: -6px 0 0;
+}
+#EC100A_barra_mobile .android img {
+    margin: -6px 0 0;
+}
+#EC100A_barra_mobile .blacberry img {
+    margin: -6px 0 0;
+}
+#barra_ie9 {
+    background: url("../img/back.jpg") repeat-x scroll center top transparent;
+    float: left;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    height: 36px;
+    padding: 0 10px 0 15px;
+    width: 308px;
+}
+#logo_ie9 { float: left; margin: 5px 0 0 5px;}
+#content_centro { float:left; width: 73%;}
+#contenido_barra_ie9 { float: right; margin: 5px 10px 0 0; color: #FFF; font-size: 1.5em;}
+#icono_ie9 { float: right; cursor: pointer;}
+#cerrar_barra_ie9 { float: right; color: #FFF; font-size: 1.2em; margin: 6px 8px 0 0; cursor:pointer;}
+#content_text { float:left; width: 75%;}
+#content_text span { float:left; margin: 5px 10px; font-size: 12px; color: #FFF; line-height: 12px;}
+#icono_logo { float:left; width: 25%; margin: 3px 0;}
+#icono_logo span { margin: 0 0 0 10px;}
+
+.mapaDelSitio {
+    border-top: 1px solid #CCCCCC;
+    padding: 35px 0 0;
+}
+.mapaDelSitio a {
+    color: #666666;
+    text-decoration: none;
+}
+.mapaDelSitio a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.mapaDelSitio .columnaLista2 {
+    margin: 10px 0;
+    min-height: 115px;
+}
+.mapaDelSitio .columnaLista2 ul {
+    list-style: none outside none;
+}
+.mapaDelSitio .columnaLista2 ul li {
+    color: #333333;
+    font-size: 1em;
+    line-height: 18px;
+}
+.mapaDelSitio .columnaLista2 ul li strong {
+    color: #333333;
+    font-size: 1em;
+}
+
+.pieDePagina { padding: 10px 0; }
+.pieDePagina p { margin-bottom: 5px; color: #666; }
+.pieDePagina p  strong{ color: #000; }
+.pieDePagina .avisoLegal { margin: 0 0 0 10px; }
+.pieDePagina ul { float: right; list-style: none; margin: -35px 0; }
+.pieDePagina ul li { display: inline; margin-left: 8px; }
+
+#form-example { style="text-align: center;}
