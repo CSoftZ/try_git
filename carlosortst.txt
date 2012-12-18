@@ -1,3 +1,6 @@
 This is a file created by carlosorgit user to try to pull it to CSoftZ/try_git which at the current
 moment he doesn't have push permissions.
 It was accidentaly uploaded using cortizqgithub but it should have been using carlosorgit.
+Now I know what happened.
+When issuing a git push upstream master it was using the SSH config for default user and not carlosorgit, that is why
+the first commit was made by cortizqgithub
